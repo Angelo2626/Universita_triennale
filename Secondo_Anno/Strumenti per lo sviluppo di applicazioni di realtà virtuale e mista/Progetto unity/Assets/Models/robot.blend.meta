@@ -1,0 +1,440 @@
+fileFormatVersion: 2
+guid: 0ecfaf5d45fd33542a99e2a95d07e86c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 1
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: robot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Body
+      parentName: robot(Clone)
+      position: {x: -1.6523128, y: 3.6681843, z: -0.0368894}
+      rotation: {x: -0.7011204, y: 0.009957378, z: 0.71289957, w: 0.01026075}
+      scale: {x: 21.705675, y: 12.941482, z: 15.935143}
+    - name: BtnA
+      parentName: robot(Clone)
+      position: {x: -0.16944668, y: 0.018121134, z: 0.016852554}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 3.9105313, y: 4.093243, z: 3.9105313}
+    - name: BtnB
+      parentName: robot(Clone)
+      position: {x: -0.10303126, y: 0.018121134, z: 0.016852554}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 3.9105313, y: 4.093243, z: 3.9105313}
+    - name: BtnSelect
+      parentName: robot(Clone)
+      position: {x: 0.056866, y: 0.020919004, z: 0.018855436}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 4.093243, y: 4.093243, z: 4.093243}
+    - name: BtnStart
+      parentName: robot(Clone)
+      position: {x: -0.0031156156, y: 0.020919004, z: 0.018855436}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 4.093243, y: 4.093243, z: 4.093243}
+    - name: Cube
+      parentName: robot(Clone)
+      position: {x: -0, y: 3.396198, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.001
+      parentName: robot(Clone)
+      position: {x: -0.0014050491, y: 5.6174526, z: -0.0037131286}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube.002
+      parentName: robot(Clone)
+      position: {x: -0.32265186, y: 5.6268134, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.6941135, y: 0.6941135, z: 0.6941135}
+    - name: Cylinder
+      parentName: robot(Clone)
+      position: {x: -0, y: 4.5072575, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.2778104, y: 0.35268313, z: 0.112807766}
+    - name: Cylinder.001
+      parentName: robot(Clone)
+      position: {x: -0, y: 5.633213, z: -1.0233004}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 0.17350303, y: 0.17350303, z: 0.10885876}
+    - name: Cylinder.002
+      parentName: robot(Clone)
+      position: {x: -0, y: 5.633213, z: 1.0149022}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000004371139}
+      scale: {x: 0.17350303, y: 0.17350303, z: 0.10885876}
+    - name: Cylinder.003
+      parentName: robot(Clone)
+      position: {x: -0, y: 6.606082, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.020695275, y: 0.020695275, z: 0.28255066}
+    - name: Cylinder.004
+      parentName: robot(Clone)
+      position: {x: -0.88634294, y: 3.4533634, z: -0.4892672}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.49999997}
+      scale: {x: 0.17434207, y: 0.17434207, z: 0.17434207}
+    - name: Cylinder.005
+      parentName: robot(Clone)
+      position: {x: -0.8835687, y: 3.92105, z: -0.4892672}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.49999997}
+      scale: {x: 0.17434207, y: 0.17434207, z: 0.17434207}
+    - name: Cylinder.006
+      parentName: robot(Clone)
+      position: {x: -0.9494562, y: 3.9218822, z: 0.47701123}
+      rotation: {x: 0.49999997, y: 0.5000001, z: -0.5, w: -0.49999988}
+      scale: {x: 0.1101952, y: 0.1101952, z: 0.1101952}
+    - name: Cylinder.007
+      parentName: robot(Clone)
+      position: {x: -0.9494562, y: 3.9218822, z: 0.18011329}
+      rotation: {x: 0.49999997, y: 0.5000001, z: -0.5, w: -0.49999988}
+      scale: {x: 0.1101952, y: 0.1101952, z: 0.1101952}
+    - name: Cylinder.008
+      parentName: robot(Clone)
+      position: {x: -0.9494562, y: 3.632814, z: 0.47701123}
+      rotation: {x: 0.49999997, y: 0.5000001, z: -0.5, w: -0.49999988}
+      scale: {x: 0.1101952, y: 0.1101952, z: 0.1101952}
+    - name: Cylinder.009
+      parentName: robot(Clone)
+      position: {x: 0.07775068, y: 0.7910513, z: 0.5587856}
+      rotation: {x: -0.7067004, y: -0.023973381, z: 0.023973377, w: 0.70670027}
+      scale: {x: 0.24368462, y: 0.24368462, z: 0.49542832}
+    - name: Cylinder.010
+      parentName: robot(Clone)
+      position: {x: 0.07775068, y: 1.9099643, z: 0.5587856}
+      rotation: {x: 0.03163257, y: 0.70991194, z: -0.7031311, w: -0.025122173}
+      scale: {x: 0.24368462, y: 0.2436846, z: 0.49542832}
+    - name: Cylinder.011
+      parentName: robot(Clone)
+      position: {x: 0.07775068, y: 0.7910513, z: -0.57800585}
+      rotation: {x: -0.7067004, y: -0.023973381, z: 0.023973377, w: 0.70670027}
+      scale: {x: 0.24368462, y: 0.24368462, z: 0.49542832}
+    - name: Cylinder.012
+      parentName: robot(Clone)
+      position: {x: 0.07775068, y: 1.9099643, z: -0.57800585}
+      rotation: {x: 0.03163257, y: 0.70991194, z: -0.7031311, w: -0.025122173}
+      scale: {x: 0.24368462, y: 0.2436846, z: 0.49542832}
+    - name: Cylinder.013
+      parentName: robot(Clone)
+      position: {x: -0, y: 0, z: -0.15668896}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: -0.00172224, y: -0.00172224, z: -0.01803833}
+    - name: DPad
+      parentName: robot(Clone)
+      position: {x: 0.17858893, y: 0.020099, z: -0.005260906}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 4.093243, y: 4.093243, z: 4.093243}
+    - name: Icosphere
+      parentName: robot(Clone)
+      position: {x: -0, y: 6.956314, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.121469095, y: 0.121469095, z: 0.121469095}
+    - name: Icosphere.001
+      parentName: robot(Clone)
+      position: {x: -0.16707134, y: 0.1883614, z: 0.5397535}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.65009373, y: 0.3792386, z: 0.3792386}
+    - name: Icosphere.002
+      parentName: robot(Clone)
+      position: {x: -0.16707134, y: 0.1883614, z: -0.597038}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.65009373, y: 0.3792386, z: 0.3792386}
+    - name: Sphere
+      parentName: robot(Clone)
+      position: {x: -0.9941875, y: 5.6453085, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.10781019, y: 0.10781019, z: 0.10781019}
+    - name: Sphere.001
+      parentName: robot(Clone)
+      position: {x: -0.98544806, y: 5.9311223, z: 0.32617623}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.10781019, y: 0.08584907, z: 0.15541588}
+    - name: Sphere.002
+      parentName: robot(Clone)
+      position: {x: -0.98544806, y: 5.9311223, z: 0.32617623}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.10781019, y: 0.08584907, z: 0.15541588}
+    - name: Sphere.003
+      parentName: robot(Clone)
+      position: {x: -0.98544806, y: 5.9311223, z: -0.28060794}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.10781019, y: 0.08584907, z: 0.15541588}
+    - name: Sphere.004
+      parentName: robot(Clone)
+      position: {x: 0.020922907, y: 3.8215542, z: 1.0368814}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.1711452, y: 0.1711452, z: 0.1711452}
+    - name: Sphere.007
+      parentName: robot(Clone)
+      position: {x: -0.8853545, y: 3.391352, z: -1.4016266}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2347576, y: 0.2347576, z: 0.18780608}
+    - name: Sphere.008
+      parentName: robot(Clone)
+      position: {x: 0.020922907, y: 3.8215542, z: -1.0702012}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.1711452, y: 0.1711452, z: 0.1711452}
+    - name: Sphere.009
+      parentName: robot(Clone)
+      position: {x: -0.6088307, y: 3.4505672, z: -1.395279}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.2347576, y: 0.2347576, z: 0.18780611}
+    - name: Sphere.010
+      parentName: robot(Clone)
+      position: {x: 0.036166668, y: 1.3482147, z: 0.55981624}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.49999997}
+      scale: {x: 0.22038664, y: 0.22038664, z: 0.22038664}
+    - name: Sphere.011
+      parentName: robot(Clone)
+      position: {x: 0.036166668, y: 1.3482147, z: -0.5769752}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.49999997}
+      scale: {x: 0.22038664, y: 0.22038664, z: 0.22038664}
+    - name: Sphere.012
+      parentName: robot(Clone)
+      position: {x: -0, y: 0, z: -0.18127383}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.008270543, y: 0.008270543, z: 0.008270543}
+    - name: Sphere.013
+      parentName: robot(Clone)
+      position: {x: -0.8853545, y: 3.391352, z: 1.3497206}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2347576, y: 0.2347576, z: 0.18780608}
+    - name: Sphere.014
+      parentName: robot(Clone)
+      position: {x: -0.6088307, y: 3.4505672, z: 1.356068}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.2347576, y: 0.2347576, z: 0.18780611}
+    - name: Torus
+      parentName: robot(Clone)
+      position: {x: -1.0225494, y: 5.327848, z: -0.003022704}
+      rotation: {x: -0.49994197, y: -0.49994203, z: 0.500058, w: 0.500058}
+      scale: {x: 0.14875974, y: 0.14163585, z: 0.13580033}
+    - name: Torus.001
+      parentName: robot(Clone)
+      position: {x: -0.89762765, y: 5.8973064, z: 0.34479135}
+      rotation: {x: -0.49994197, y: -0.49994203, z: 0.500058, w: 0.500058}
+      scale: {x: 0.14875974, y: 0.14163585, z: 0.13580033}
+    - name: Torus.002
+      parentName: robot(Clone)
+      position: {x: -1.015787, y: 6.0298347, z: 0.32838932}
+      rotation: {x: -0.5, y: 0.49999994, z: -0.5, w: 0.50000006}
+      scale: {x: 0.10148296, y: 0.09662306, z: 0.09264212}
+    - name: Torus.003
+      parentName: robot(Clone)
+      position: {x: -1.015787, y: 6.0298347, z: -0.2847546}
+      rotation: {x: -0.5, y: 0.49999994, z: -0.5, w: 0.50000006}
+      scale: {x: 0.10148296, y: 0.09662306, z: 0.09264212}
+    - name: Torus.004
+      parentName: robot(Clone)
+      position: {x: 0.020591795, y: 3.8208258, z: 1.0535185}
+      rotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+      scale: {x: 0.22413671, y: 0.22413671, z: 0.22413671}
+    - name: Torus.009
+      parentName: robot(Clone)
+      position: {x: -1.0993898, y: 3.4615986, z: -1.4046882}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.010
+      parentName: robot(Clone)
+      position: {x: -0.94296455, y: 3.406755, z: -1.4008222}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.013
+      parentName: robot(Clone)
+      position: {x: -1.0138615, y: 3.9219954, z: 0.47853467}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.49999997}
+      scale: {x: -0.1191595, y: -0.1191595, z: -0.1191595}
+    - name: Torus.014
+      parentName: robot(Clone)
+      position: {x: -1.0138615, y: 3.9219954, z: -0.49035034}
+      rotation: {x: 0.49999997, y: 0.5000001, z: -0.5, w: -0.49999988}
+      scale: {x: -0.19300982, y: -0.19300982, z: -0.19300982}
+    - name: Torus.015
+      parentName: robot(Clone)
+      position: {x: -1.0138615, y: 3.4523225, z: -0.49035034}
+      rotation: {x: 0.49999997, y: 0.5000001, z: -0.5, w: -0.49999988}
+      scale: {x: -0.19300982, y: -0.19300982, z: -0.19300982}
+    - name: Torus.016
+      parentName: robot(Clone)
+      position: {x: -1.0138615, y: 3.9219954, z: 0.18018895}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.49999997}
+      scale: {x: -0.1191595, y: -0.1191595, z: -0.1191595}
+    - name: Torus.017
+      parentName: robot(Clone)
+      position: {x: -1.0138615, y: 3.6325114, z: 0.47853467}
+      rotation: {x: 0.5, y: 0.5, z: -0.5, w: -0.49999997}
+      scale: {x: -0.1191595, y: -0.1191595, z: -0.1191595}
+    - name: Torus.018
+      parentName: robot(Clone)
+      position: {x: -1.2560992, y: 3.5165417, z: -1.4085616}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.019
+      parentName: robot(Clone)
+      position: {x: -1.98264, y: 3.774894, z: -1.4320383}
+      rotation: {x: -0.6513838, y: 0.083097525, z: -0.15168397, w: 0.7387732}
+      scale: {x: 0.31122127, y: 0.1774069, z: 0.38054007}
+    - name: Torus.021
+      parentName: robot(Clone)
+      position: {x: 0.020591795, y: 3.8208258, z: -1.0535641}
+      rotation: {x: 0.000000021855692, y: 0, z: -0, w: 1}
+      scale: {x: 0.22413671, y: 0.22413671, z: 0.22413671}
+    - name: Torus.022
+      parentName: robot(Clone)
+      position: {x: -0.40249997, y: 3.5409813, z: -1.3924495}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    - name: Torus.023
+      parentName: robot(Clone)
+      position: {x: -0.55496836, y: 3.476048, z: -1.3978072}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    - name: Torus.024
+      parentName: robot(Clone)
+      position: {x: -0.24975485, y: 3.6060326, z: -1.3870823}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    - name: Torus.025
+      parentName: robot(Clone)
+      position: {x: -0.89762765, y: 5.8973064, z: -0.29824728}
+      rotation: {x: -0.49994197, y: -0.49994203, z: 0.500058, w: 0.500058}
+      scale: {x: 0.14875974, y: 0.14163585, z: 0.13580033}
+    - name: Torus.026
+      parentName: robot(Clone)
+      position: {x: -1.0993898, y: 3.4615986, z: 1.3466588}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.027
+      parentName: robot(Clone)
+      position: {x: -0.94296455, y: 3.406755, z: 1.350525}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.028
+      parentName: robot(Clone)
+      position: {x: -1.2560992, y: 3.5165417, z: 1.3427855}
+      rotation: {x: -0.3794806, y: 0.5868013, z: -0.5652879, w: 0.43830162}
+      scale: {x: 0.2521551, y: 0.25215513, z: 0.33544534}
+    - name: Torus.029
+      parentName: robot(Clone)
+      position: {x: -1.98264, y: 3.774894, z: 1.3193089}
+      rotation: {x: -0.6513838, y: 0.083097525, z: -0.15168397, w: 0.7387732}
+      scale: {x: 0.31122127, y: 0.1774069, z: 0.38054007}
+    - name: Torus.030
+      parentName: robot(Clone)
+      position: {x: -0.40249997, y: 3.5409813, z: 1.3588976}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    - name: Torus.031
+      parentName: robot(Clone)
+      position: {x: -0.55496836, y: 3.476048, z: 1.3535398}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    - name: Torus.032
+      parentName: robot(Clone)
+      position: {x: -0.24975485, y: 3.6060326, z: 1.3642646}
+      rotation: {x: 0.70746183, y: 0.12511559, z: -0.6776541, w: 0.15693548}
+      scale: {x: 0.25215515, y: 0.25215515, z: 0.33544534}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
