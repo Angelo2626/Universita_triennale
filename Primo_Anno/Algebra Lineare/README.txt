@@ -1,0 +1,1 @@
+Il file presente in questa cartella è stato creato con OneNote, per un analisi migliore del file si consiglia l'utilizzo di questo software.
