@@ -1,0 +1,37 @@
+Quantum mechanics has the curious distinction of being simultaneously the most suc
+cessful and the most mysterious of our scientific theories. It was developed in fits and
+ starts over a remarkable period from 1900 to the 1920s, maturing into its current form in
+ the late 1920s. In the decades following the 1920s, physicists had great success applying
+ quantum mechanics to understand the fundamental particles and forces of nature, cul
+minating in the development of the standard model of particle physics. Over the same
+ period, physicists had equally great success in applying quantummechanicstounderstand
+ an astonishing range of phenomena in our world, from polymers to semiconductors, from
+ superfluids to superconductors. But, while these developments profoundly advanced our
+ understanding of the natural world, they did only a little to improve our understanding
+ of quantum mechanics.
+ This began to change in the 1970s and 1980s, when a few pioneers were inspired to
+ ask whether some of the fundamental questions of computer science and information
+ theory could be applied to the study of quantum systems. Instead of looking at quantum
+ systems purely as phenomena to be explained as they are found in nature, they looked at
+ them as systems that can be designed. This seems a small change in perspective, but the
+ implications are profound. No longer is the quantum world taken merely as presented,
+ but instead it can be created. The result was a new perspective that inspired both a
+ resurgence of interest in the fundamentals of quantum mechanics, and also many new
+ questions combining physics, computer science, and information theory. These include
+ questions such as: what are the fundamental physical limitations on the space and time
+ required to construct a quantum state? How much time and space are required for a given
+ dynamical operation? What makes quantum systems difficult to understand and simulate
+ by conventional classical means?
+ Writing this book in the late 1990s, we were fortunate to be writing at a time when
+ these and other fundamental questions had just crystallized out. Ten years later it is
+ clear such questions offer a sustained force encouraging a broad research program at the
+ foundations of physics and computer science. Quantum information science is here to
+ stay. Although the theoretical foundations of the field remain similar to what we discussed
+ 10yearsago,detailedknowledgeinmanyareashasgreatlyprogressed.Originally,thisbook
+ served as a comprehensive overview of the field, bringing readers near to the forefront
+ of research. Today, the book provides a basic foundation for understanding the field,
+ appropriate either for someone who desires a broad perspective on quantum information
+ science, or an entrywayforfurtherinvestigation of thelatest research literature. Of course,
+ manyfundamentalchallenges remain, and meeting those challenges promises to stimulate
+ exciting and unexpected links among many disparate parts of physics, computer science,
+ and information theory. We look forward to the decades ahead!

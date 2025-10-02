@@ -1,0 +1,4 @@
+Numero di caratteri: 2515
+Numero di parole: 456
+Numero di righe: 37
+ContoVocali: 963
