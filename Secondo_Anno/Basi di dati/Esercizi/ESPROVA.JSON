@@ -1,0 +1,116 @@
+//CASO A - I requisiti indicano che l'accesso ai dati avviene da AUTOSTRADA, CASELLO e CONTRATTO TELEPASS
+
+//DOC_Aut
+{
+    _id: autogen,
+    Nome: string,
+    Lunghezza: number,
+    #MedioVeicoli: number,
+    Codice: integer
+}
+
+//DOC_Ct
+{
+    _id: autogen,
+    DataAttivazione: date,
+    DataCessazione: date,
+    CartaCredito: string,
+    Indirizzo: string,
+    Nome: string,
+    Cognome: string,
+    CodiceContr: string
+}
+
+//DOC_Cas
+{
+    _id: autogen,
+    Nome: string,
+    #PostPagamento: string,
+    #PostTelepass: string,
+    ACCESSO: {
+        autostrada_id: integer,
+    }
+    RICAVO: {[
+        Mese: string,
+        Anno: string,
+        Importo: number
+    ]}
+    DA: {[
+        Data: date,
+        Ora: time,
+        LungCoda: number,
+        A: {
+            casello_id: integer,
+        }
+    ]}
+    ENTRATA_T: {[
+        OraIngresso: time,
+        DataIngresso: time,
+        ContrattoTelepass:{
+            ContrattoTelepass_id: integer,
+        }
+        USCITA_T: {
+            casello_id: integer,
+            Data: date,
+            Ora: time,
+            Importo: numebr
+        }
+    ]}
+    ENTRATA_B:{[
+        OraIngresso: time,
+        DataIngresso: time,
+        NumeroBiglietto: number,
+        USCITA_B:{
+            casello_id: integer,
+            Data: date,
+            Ora: time,
+            Importo: number
+        }
+    ]}
+}
+
+//CASO A – I requisiti indicano che l’accesso ai dati avviene da VOLO INTERNAZIONALE, VOLO NAZIONALE e TRATTA
+//DOC_Tratta
+{
+    _id: autogen,
+    DurataMedia: time,
+    Codice: string,
+    APartenza: {
+        Nome: string,
+    }
+    AArrivo: {
+        Nome: string,
+    }
+}
+
+//DOC_VoloInternazionale
+{
+    _id: autogen,
+    OraPartenza: time,
+    Data: date,
+    OraArrivo: time,
+    #PostiDisp*: integer,
+    OraEffettivaPart*: time,
+    OraEffettivaArr*: time,
+    SCALO: [{
+        tratta_id: integer,
+        Sosta: string,
+    }]
+    TRAGITTO_INT: {
+        tratta_id: integer,
+    }
+}
+
+//DOC_VoloNazionale
+{
+    _id: autogen,
+    OraPartenza: time,
+    Data: date,
+    OraArrivo: time,
+    #PostiDisp*: integer,
+    OraEffettivaPart*: time,
+    OraEffettivaArr*: time,
+    TRAGITTO_NAZ: {
+        tratta_id: integer,
+    }
+}

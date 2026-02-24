@@ -1,0 +1,27 @@
+//DOC1
+{
+    _id: autogen,
+    nome: string,
+    città: string,
+    indirizzo: string,
+    abbonamento: {
+        NomePiano: string,
+        PrezzoMensile: string
+    }
+    iscrizione: [{
+        iscritto_id: integer,
+        DataIscrizione: date,
+        NomePiano: string
+    }]
+}
+
+//DOC2
+{
+    _id: autogen,
+    type: string,
+    CF: string,
+    Nome: string,
+    Cognome: string,
+    CertificatoMedico: boolean,
+    EnteAffiliazione: string
+}

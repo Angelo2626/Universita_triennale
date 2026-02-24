@@ -1,0 +1,70 @@
+//DOC_aut
+{
+    _id: autogen,
+    Codice: string,
+    #MedioVeicolo: integer,
+    Lunghezza: double,
+    Nome: string
+}
+
+//DOC_ct
+{
+    _id: autogen,
+    DataAttivazione: date,
+    DataCessazione*: date,
+    CartaCredito: string,
+    Indirizzo: string,
+    Nome: string,
+    Cognome: string,
+    CodiceContr: string
+}
+
+//DOC_cas
+{
+    _id: autogen,
+    Nome: string,
+    #PostoPagamento: integer,
+    #PostTelepass: integer,
+    incidente: [
+        {
+            Data: date,
+            Ora: date,
+            LungCoda: integer,
+            a: {
+                casello_id: autogen
+            }
+        }
+    ]
+    ricavo: [
+        {
+            Mese: string,
+            Anno: integer,
+            Importo: double
+        }
+    ]
+    accesso: {
+        autostrada_id: autogen
+    }
+    autoveicolo_senza_telepass: [{
+        OraIngresso: time,
+        DataIngresso: date,
+        NumeroBiglietto: string,
+        USCITA_B*: {
+            casello_id: autogen,
+            Data: date,
+            Ora: date,
+            Importo: double
+        }
+    }]
+    autoveicolo_con_telepass: [{
+        OraIngresso: time,
+        DataIngresso: date,
+        USCITA_T*: {
+            casello_id: autogen,
+            data: date,
+            Ora: date,
+            Importo: double,
+            contrattoTelepass_id: integer
+        }
+    }]
+}

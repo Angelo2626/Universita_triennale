@@ -1,0 +1,32 @@
+//DOC_paziente
+{
+    _id: autogen,
+    CodiceFiscale: string,
+    Nome: string,
+    DataNascita: date,
+    ricovero: [{
+        reparto_id: autogen,
+        personale_id: autogen,
+        diagnosi: string,
+        DataIngresso: date
+    }]
+}
+
+//DOC_PERSONALE
+{
+    _id: autogen,
+    type: string,
+    Matricola: string,
+    Cognome: string,
+    Specializzazione: string,
+    ParcellaOraria: double,
+    TurnoNotturno: boolean
+}
+
+//DOC_REPARTO
+{
+    _id: autogen,
+    NomeReparto: string,
+    Piano: integer,
+    Telefono: string
+}

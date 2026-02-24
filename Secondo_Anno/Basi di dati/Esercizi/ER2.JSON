@@ -1,0 +1,97 @@
+//CASO A.1
+//DOC_cc
+{
+    _id: autogen,
+    Numero: integer,
+    Saldo: double,
+    operativita: [
+        {
+            Valore: double,
+            tipo: string,
+            data: date,
+            Numero: integer
+        }
+    ]
+    apertura: {
+        filiale_id: integer
+    }
+    intestazione: [
+        {
+            cliente_id: integer
+        }
+    ]
+}
+
+//DOC_cli
+{
+    _id: autogen,
+    numero_telefono: [string],
+    CodiceFiscale: string,
+    Cognome: string,
+    Nome: string,
+    DataNascita: date,
+    Professione: string
+}
+
+//DOC_fil
+{
+    _id: autogen,
+    Codice: integer,
+    nClienti: integer,
+    indirizzo: string,
+    Nome: string
+}
+
+//CASO A.2
+//DOC_cc
+{
+    _id: autogen,
+    Numero: integer,
+    saldo: integer
+    operatività: [
+        {
+            Valore: double,
+            Tipo: string,
+            Data: date,
+            Numero: integer
+        }
+    ]
+    intestazione:[
+        {
+            cliente_id: autogen
+        }
+    ]
+    apertura: {
+        filiale_id: autogen
+    }
+}
+
+//DOC_cli
+{
+    _id: autogen,
+    numero_telefono: [string],
+    CodiceFiscale: string,
+    Cognome: string,
+    Nome: string,
+    DataNascita: date,
+    Progessione: string,
+    intestazione: [
+        {
+            contoCorrente_id: autogen
+        }
+    ]
+}
+
+//DOC_fil
+{
+    _id: autogen,
+    Nome: string,
+    Indirizzo: string,
+    nClienti: integer,
+    Codice: string,
+    apertura: [
+        {
+            contoCorrente_id: autogen
+        }
+    ]
+}
